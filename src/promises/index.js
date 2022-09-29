@@ -17,3 +17,12 @@ countCows.then((result) =>{
 }).catch((error)=> {
     console.log(error)
 }).finally(()=>console.log("Finally"))
+
+
+/* export function delay(time, message) {
+    return new Promise((resolve, reject) => {
+      window.setTimeout(()=> {
+        resolve(message)
+      },time)
+    })
+  } */
